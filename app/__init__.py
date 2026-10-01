@@ -1,0 +1,1 @@
+"""AI Study Buddy application package."""
