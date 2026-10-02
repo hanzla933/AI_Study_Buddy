@@ -9,8 +9,14 @@
   <body>
     <main>
       <h1>AI Study Buddy</h1>
-      <p>Your study workspace is ready.</p>
-      <p class="status">Next up: add a PDF and extract its text.</p>
+      <p>Upload a PDF to extract its text.</p>
+      <form id="pdf-form">
+        <label for="pdf-file">Choose a PDF</label>
+        <input id="pdf-file" name="file" type="file" accept="application/pdf" required />
+        <button type="submit">Extract text</button>
+      </form>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <pre id="extracted-text" hidden></pre>
     </main>
     <script src="/static/app.js"></script>
   </body>

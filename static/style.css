@@ -30,3 +30,23 @@ p {
   border-left: 3px solid #d4754b;
   padding-left: 0.8rem;
 }
+
+form {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+button {
+  width: fit-content;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+pre {
+  max-height: 50vh;
+  overflow: auto;
+  padding: 1rem;
+  background: #fff;
+  white-space: pre-wrap;
+}
